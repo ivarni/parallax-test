@@ -1,2 +1,3 @@
 # parallax-test
-I hate having to do this but I need to learn parallax
+
+https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-How-to-use-ScrollMagic
