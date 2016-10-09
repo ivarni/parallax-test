@@ -4,7 +4,9 @@
   "description": "I hate having to do this but I need to learn parallax",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dist": "gulp javascript",
+    "dist:watch": "npm run dist && gulp watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,15 @@
   "homepage": "https://github.com/ivarni/parallax-test",
   "dependencies": {
     "express": "^4.13.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
